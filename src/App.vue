@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <sidebar id="sidebar" />
-    <router-view id="router" />
+    <router-view id="router" :key="$route.path" />
   </div>
 </template>
 
@@ -17,9 +17,9 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 10px;
 }
 #app {
+  margin-top: 10px;
   display: flex;
 }
 #sidebar {
