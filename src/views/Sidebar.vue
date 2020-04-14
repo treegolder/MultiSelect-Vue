@@ -40,7 +40,26 @@
             <router-link to="/example05-01">v-module双向绑定</router-link>
           </li>
           <li>
-            <router-link to="/example05-02">基于执行方法</router-link>
+            <router-link to="/example05-02">例子</router-link>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Vuex
+        <ul>
+          <li><router-link to="/example06-01">基本绑定</router-link></li>
+          <li><router-link to="/example06-02">同步更新</router-link></li>
+          <li><router-link to="/example06-03">异步更新</router-link></li>
+        </ul>
+      </li>
+      <li>
+        axios & mock
+        <ul>
+          <li>
+            <router-link to="/example07-01">基本请求及mock数据</router-link>
+          </li>
+          <li>
+            <router-link to="/homeworks">homeworks</router-link>
           </li>
         </ul>
       </li>

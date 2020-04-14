@@ -1,4 +1,10 @@
 # vue-examples
+### 2020.04.14
+Axios; Mock; Vuex & Axios & Mock   
+
+### 2020.04.12
+Vuex   
+
 ### 2020.04.11
 Data; Computed; Router Passing Params; Reuseable Components; Template Syntax; Lifecycle Hooks; Keep-alive; Directives; Event Handling; Form Input Bindings; Watch; 
 
