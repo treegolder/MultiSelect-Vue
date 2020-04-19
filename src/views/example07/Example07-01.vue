@@ -48,10 +48,8 @@ export default {
     login() {
       axios
         .post("login", {
-          user: {
-            userName: "BO",
-            userId: "B12"
-          }
+          number: 1001,
+          password: "aaaaaa"
         })
         .then(resp => {
           console.log(resp.headers["Authorization"]);

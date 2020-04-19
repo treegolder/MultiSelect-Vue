@@ -53,7 +53,7 @@
         </ul>
       </li>
       <li>
-        axios & mock
+        axios & mock & Vuex
         <ul>
           <li>
             <router-link to="/example07-01">基本请求及mock数据</router-link>
@@ -63,6 +63,11 @@
           </li>
         </ul>
       </li>
+      <li><router-link to="/example08">父组件向子组件传参</router-link></li>
+      <li><router-link to="/example09">Axios拦截器</router-link></li>
+      <li><router-link to="/example10">嵌套路由</router-link></li>
+      <li><router-link to="/example11">整合Sessionstorage</router-link></li>
+      <li><router-link to="/example12">前后端联调 & 跨域</router-link></li>
     </ul>
   </div>
 </template>
