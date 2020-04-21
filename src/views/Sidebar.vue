@@ -68,6 +68,7 @@
       <li><router-link to="/example10">嵌套路由</router-link></li>
       <li><router-link to="/example11">整合Sessionstorage</router-link></li>
       <li><router-link to="/example12">前后端联调 & 跨域</router-link></li>
+      <li><router-link to="/example13">读取excel文件</router-link></li>
     </ul>
   </div>
 </template>
