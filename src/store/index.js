@@ -49,7 +49,7 @@ const myMutations = {
 const myActions = {
   [types.UPDATE_USER]({ commit }, data) {
     setTimeout(() => {
-      commit(types.UPDATEUSER, data);
+      commit(types.UPDATE_USER, data);
     }, 2000);
   },
 
