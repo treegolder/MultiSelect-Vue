@@ -114,6 +114,11 @@ let adminRoutes = [
     props: true,
     path: "/example11/welcome",
     component: () => import("@/views/example11/Welcome.vue")
+  },
+  {
+    props: true,
+    path: "/example12/courses",
+    component: () => import("@/views/example12/Course.vue")
   }
 ];
 // 必须与后端提前约定。按角色，动态加载路由信息

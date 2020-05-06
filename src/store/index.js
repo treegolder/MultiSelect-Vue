@@ -89,6 +89,9 @@ const myActions = {
 
     commit("teacher", resp.data.teacher);
     commit("courses", resp.data.courses);
+  },
+  async addCourse({ commit }, data) {
+    let resp = await axios.post("teacher/courses", data);
   }
 };
 

@@ -16,6 +16,9 @@
         </li>
       </ul>
     </p>
+    <p>
+      <router-link to="/example12/courses">添加课程</router-link>
+    </p>
   </div>
 </template>
 <script>
