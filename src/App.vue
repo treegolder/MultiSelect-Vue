@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <sidebar id="sidebar" />
+    <!-- <sidebar id="sidebar" /> -->
+    <example08 id="example08" />
     <router-view id="router" :key="$route.path" />
-    <alertdialog />
   </div>
 </template>
 <script>
-import sidebar from "@/views/Sidebar";
+// import sidebar from "@/views/Sidebar";
+import example08 from "@/views/example08/Example08";
 export default {
   components: {
-    sidebar,
-    alertdialog: () => import("@/components/AlertDialog.vue")
+    example08
+    // sidebar
   }
 };
 </script>
